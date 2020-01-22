@@ -1,3 +1,10 @@
+def print_banner(message):
+    print ('*' * len(message))
+    print (message)
+    print ('*' * len(message))
+
+print_banner("Welcome to my twisted program!")
+
 user_input = input('Give me a sentence: ')
 words = user_input.split(' ')
 
@@ -10,3 +17,4 @@ for word in lower_list:
     new_string += str(word)
 
 print(new_string)
+
