@@ -5,6 +5,8 @@ def print_banner(message):
 
 print_banner("Welcome to my twisted program!")
 
+print('Insert a sentence you want converted to camelCase!')
+
 user_input = input('Give me a sentence: ')
 words = user_input.split(' ')
 
